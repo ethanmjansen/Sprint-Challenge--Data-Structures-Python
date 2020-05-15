@@ -31,7 +31,7 @@ for name in names_1[1:]: # Insert remaining nodes from names_1
 for name in names_2: # Checking if my bst contains a name in names_2
     if bst.contains(name):
         duplicates.append(name)
-# The new code is O(log n) it takes 0.25 seconds on my local machine
+# The new code is O(n log n) it takes 0.25 seconds on my local machine
 # the new code appended 64 duplicates. 
 
 
